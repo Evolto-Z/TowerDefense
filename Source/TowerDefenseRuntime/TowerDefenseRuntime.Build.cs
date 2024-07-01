@@ -37,11 +37,18 @@ public class TowerDefenseRuntime : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore", 
+				"SlateCore",
+				"AnimToTexture",
 				"MassCommon",
 				"MassEntity",
 				"MassActors",
 				"MassCrowd",
+				"MassNavigation",
+				"MassSpawner",
+				"MassRepresentation",
+				"MassAIBehavior",
+				"MassMovement",
+				"MassLOD",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
